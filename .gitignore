@@ -1,0 +1,45 @@
+# Arquivos e pastas do Python
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+.Python
+env/
+venv/
+.venv/  # Seu ambiente virtual do PyCharm
+
+# Arquivos do sistema operacional
+.DS_Store # macOS
+.Trashes # macOS
+Thumbs.db # Windows
+ehthumbs.db # Windows
+Desktop.ini # Windows
+
+# Pastas e arquivos gerados por IDEs
+.idea/  # Pasta de configuração do PyCharm
+*.iml   # Arquivos de módulo do PyCharm
+*.ipr
+*.iws
+
+# Dados de entrada (datasets - grandes e não devem ser versionados)
+data/
+
+# Modelos treinados (se você decidir salvá-los no futuro)
+# *.pkl
+# *.bin
+# models/
+
+# Arquivos de saída
+*.csv   # Ex: submission.csv
+*.txt
+*.png   # Arquivos de imagem dos gráficos
+*.jpg
+*.jpeg
+*.gif
+*.pdf
+
+nltk_data/
+.venv/nltk_data/
+
+# Logs
+*.log
