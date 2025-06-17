@@ -22,7 +22,8 @@ Desktop.ini # Windows
 *.iws
 
 # Dados de entrada (datasets - grandes e não devem ser versionados)
-data/
+data
+imgs
 
 # Modelos treinados (se você decidir salvá-los no futuro)
 # *.pkl
